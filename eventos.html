@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCAC Alma Creativa</title>
+    <link rel="stylesheet" type="text/css" href="CCestilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="logo">
+                <img src="imagenes/LOGO2.png" alt="Logo2" width="120" height="24" class="logotipo">
+                  </div>
+            <a href="index.html">Inicio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="talleres.html">Talleres</a>
+             <a href="form.html">Registro</a>
+            
+          </a>
+        </div>
+      </nav>
+<header>
+    <div class="fondoH">
+        <h1>Eventos en Alma Creativa</h1>
+        <p style="font-weight: bold; font-size: 16px; line-height: 1.5;">¡Próximos Eventos!</p>
+        <p style="line-height: 1.5;">¡Descubrí todos los artistas que se presentaran!</p>
+    </div>
+</header>
+
+    <main>
+        <section>
+            <div>
+                <h2>EVENTOS</h2>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <p style="font-weight: bold; font-size: 24px">Viernes 26 - "Festival Bandas Tributo"</pstyle>
+                    </li>
+                       <p style ="font-weight: bold; font-size: 16px">Se presentaran bandas tributos a clasicos como:</p>
+                       <li>LOS REDONDOS</li>
+                       <li>LA RENGA</li>
+                       <li>DIVIDIDOS</li>
+                </ul>
+                
+                <div class="carousel" id="eventos-carousel-1">
+                    <img src="imagenes/tributo1.jpg" alt="Evento 1" class="active">
+                    <img src="imagenes/tributo2.jpg" alt="Evento 2">
+                    <img src="imagenes/tributo3.jpg" alt="Evento 3">
+                    <div class="carousel-controls">
+                        <button onclick="prevSlide('eventos-carousel-1')">&lt;</button>
+                        <button onclick="nextSlide('eventos-carousel-1')">&gt;</button>
+                    </div>
+                </div>
+
+                <ul style="list-style-type: none;">
+                    <li>
+                        <p style ="font-weight: bold; font-size: 24px;">Sabado 27 - "Alma y Cachengue Fest"</p>
+                    </li>
+                    <p style="font-weight: bold; font-size: 16px;">Como todos los sabados, sumate a tirar unos pasos prohibidos</p>
+                    <li>CLASICOS</li>
+                    <li>CUMBIA</li>
+                    <li>REGGEATON</li>
+                    <li>CACHENGUE</li>
+                    </ul>
+    
+            
+                <div class="carousel" id="eventos-carousel-2">
+                    <img src="imagenes/fest1.jpg" alt="Evento 4" class="active">
+                    <img src="imagenes/fest2.jpg" alt="Evento 5">
+                    <img src="imagenes/fest3.jpg" alt="Evento 6">
+                    <div class="carousel-controls">
+                        <button onclick="prevSlide('eventos-carousel-2')">&lt;</button>
+                        <button onclick="nextSlide('eventos-carousel-2')">&gt;</button>
+                    </div>
+                </div>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <p style ="font-weight: bold; font-size: 24px;">Domingo 28 - "Jam en el Alma"</p>
+                    </li>
+                    <p style="font-weight: bold; font-size: 16px;">Subite al escenario junto a la banda del CCAC y disfruta compartiendo musica!</p>
+                    <li>ROCK</li>
+                    <li>BLUES</li>
+                    <li>FUNKY</li>
+                    <li>JAZZ</li>
+                    </ul>
+    
+    
+                <div class="carousel" id="eventos-carousel-3">
+                    <img src="imagenes/jam1.jpg" alt="Evento 7" class="active">
+                    <img src="imagenes/jam2.jpg" alt="Evento 8">
+                    <img src="imagenes/jam3.jpg" alt="Evento 9">
+                    <div class="carousel-controls">
+                        <button onclick="prevSlide('eventos-carousel-3')">&lt;</button>
+                        <button onclick="nextSlide('eventos-carousel-3')">&gt;</button>
+                    </div>
+                </div>
+            
+                <script src="scripts.js"></script>
+            </div>
+                
+
+
+
+        </section>
+    </main>
+        <footer>
+    
+            <p>&copy; 2024 Centro Cultural Alma Creativa</p>
+        </footer>
+
+    </body>
+    </html>
